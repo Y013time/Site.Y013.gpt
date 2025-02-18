@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: "Courier New", monospace;
+    background: #111;
+    color: #0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.welcome-screen {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #0f0;
+}
+.start-button {
+    margin-top: 20px;
+    padding: 15px 25px;
+    background: black;
+    color: #0f0;
+    border: 2px solid #0f0;
+    cursor: pointer;
+}

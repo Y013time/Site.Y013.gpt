@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Y013 GPT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="welcome-screen">
+        <img src="welcome-image.png" alt="Welcome Image">
+        <h1>به Y013 GPT خوش آمدید</h1>
+        <button class="start-button" onclick="startChat()">شروع چت</button>
+    </div>
+
+    <div id="chat-screen" class="container" style="display: none;">
+        <div class="top-bar">Y013 GPT</div>
+        <div class="chat-container" id="chat-content"></div>
+        <form id="chat-form" class="bottom-bar">
+            <input id="user-input" type="text" placeholder="پیام خود را بنویسید..." autocomplete="off">
+            <button type="submit">ارسال</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
